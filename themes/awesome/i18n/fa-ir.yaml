@@ -1,0 +1,27 @@
+## HOME ##
+- id: "home.home"
+  translation: "خانه"
+  
+- id: "home.recent_posts"
+  translation: "پست‌های اخیر"
+
+- id: "home.see_all_posts"
+  translation: "همه پست‌ها"
+
+## SINGLE ##
+- id: "single.table_of_contents"
+  translation: "لیست مطالب"
+
+## FOOTER ##
+- id: "footer.go_to_top"
+  translation: "برو بالا"
+
+- id: "footer.disclaimer"
+  translation: "Powered by <a href=\"https://gohugo.io\" target=\"_blank\" rel=\"noopener\">Hugo</a>."
+
+## ERRORS ##
+- id: "errors.404"
+  translation: "چیزی پیدا نشد"
+
+- id: "errors.404_description"
+  translation: "سر و ته کن"
