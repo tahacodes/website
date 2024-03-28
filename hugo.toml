@@ -1,0 +1,4 @@
+baseURL = 'https://blog.tahacodes.io/'
+languageCode = 'en-us'
+theme = 'simple'
+title = 'Such a blog'
