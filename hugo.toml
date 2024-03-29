@@ -1,7 +1,7 @@
 # Basic configs
 baseURL = 'https://blog.tahacodes.io/'
-languageCode = 'en-us'
-defaultContentLanguage = "en-us"
+languageCode = 'en'
+defaultContentLanguage = "en"
 theme = 'awesome'
 title = 'A Simple Blog'
 
@@ -16,7 +16,7 @@ name = "github"
 url = "https://github.com/tahacodes"
 
 [[params.socialIcons]]
-name = "Twitter"
+name = "x"
 url = "https://twitter.com/tahacodes"
 
 [[params.socialIcons]]
@@ -35,20 +35,20 @@ endLevel = 4    # ToC ends at H4
 ordered = false # generates <ul> instead of <ol>
 
 #### English language
-[Languages.en-us]
+[Languages.en]
 languageName = "English"
-languageCode = "en-us"
+languageCode = "English"
 contentDir = "content/en"
 weight = 1
 
-[Languages.en-us.menu]
-[[Languages.en-us.menu.main]]
+[Languages.en.menu]
+[[Languages.en.menu.main]]
 pageRef = "posts"
 name = 'Posts'
 url = '/posts/'
 weight = 20
 
-[Languages.en-us.params]
+[Languages.en.params]
 sitename = "Things that i enjoy talking about"
 defaultColor = "dark"
 description = ""
@@ -60,36 +60,27 @@ additionalScripts = []
 dateFormat = ""
 rssFeedDescription = "summary"
 
-[Languages.en-us.params.author]
+[Languages.en.params.author]
 avatar = ""
 name = "Taha Farahani"
 intro = "A Simple Blog"
 description = "Things that i like talking about"
 
-# Allow to override webmanifest options
-[Languages.en-us.params.webmanifest]
-name = "sitename"
-short_name = "sitename"
-start_url = "/"
-theme_color = "#434648"
-background_color = "#fff"
-display = "standalone"
-
 #### Persian language
-[Languages.fa-ir]
+[Languages.fa]
 languageName = "Persian"
-languageCode = "fa-ir"
+languageCode = "فارسی"
 contentDir = "content/fa"
 weight = 1
 
-[Languages.fa-ir.menu]
-[[Languages.fa-ir.menu.main]]
+[Languages.fa.menu]
+[[Languages.fa.menu.main]]
 pageRef = "posts"
 name = 'پست‌ها'
 url = '/posts/'
 weight = 20
 
-[Languages.fa-ir.params]
+[Languages.fa.params]
 sitename = "چیزهایی که دوست دارم درباره‌شان صحبت کنم"
 defaultColor = "dark"
 description = ""
@@ -101,17 +92,8 @@ additionalScripts = []
 dateFormat = ""
 rssFeedDescription = "summary"
 
-[Languages.fa-ir.params.author]
+[Languages.fa.params.author]
 avatar = ""
 name = "Taha Farahani"
 intro = "یه بلاگ ساده"
 description = "چیزهایی که دوست دارم درباره‌شان صحبت کنم"
-
-# Allow to override webmanifest options
-[Languages.fa-ir.params.webmanifest]
-name = "sitename"
-short_name = "sitename"
-start_url = "/"
-theme_color = "#434648"
-background_color = "#fff"
-display = "standalone"
