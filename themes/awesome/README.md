@@ -1,1 +1,0 @@
-Based on hugo-sid / hugo-blog-awesome
