@@ -3,14 +3,13 @@ baseURL = 'https://blog.tahacodes.io/'
 languageCode = 'en'
 defaultContentLanguage = "en"
 theme = 'awesome'
-title = 'A Simple Blog'
+title = "Taha's blog"
 
 # Enable emojis globally
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"]
 
 # External links
-
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/tahacodes"
@@ -21,24 +20,12 @@ url = "https://twitter.com/tahacodes"
 
 [[params.socialIcons]]
 name = "RSS"
-url = "index.xml"
+url = "/index.xml"
 
-# set markup.highlight.noClasses=false to enable code highlight
-[markup]
-[markup.highlight]
-noClasses = false
-[markup.goldmark.renderer]
-unsafe = true
-[markup.tableOfContents]
-startLevel = 2  # ToC starts from H2
-endLevel = 4    # ToC ends at H4
-ordered = false # generates <ul> instead of <ol>
-
-#### English language
 [Languages.en]
 languageName = "English"
 languageCode = "English"
-contentDir = "content/en"
+contentDir = "content/"
 weight = 1
 
 [Languages.en.menu]
@@ -46,10 +33,10 @@ weight = 1
 pageRef = "posts"
 name = 'Posts'
 url = '/posts/'
-weight = 20
+weight = 10
 
 [Languages.en.params]
-sitename = "Things that i enjoy talking about"
+sitename = "Taha's blog"
 defaultColor = "dark"
 description = ""
 mainSections = ['posts']
@@ -63,37 +50,5 @@ rssFeedDescription = "summary"
 [Languages.en.params.author]
 avatar = ""
 name = "Taha Farahani"
-intro = "A Simple Blog"
+intro = "Taha's blog"
 description = "Things that i like talking about"
-
-#### Persian language
-[Languages.fa]
-languageName = "Persian"
-languageCode = "فارسی"
-contentDir = "content/fa"
-weight = 1
-
-[Languages.fa.menu]
-[[Languages.fa.menu.main]]
-pageRef = "posts"
-name = 'پست‌ها'
-url = '/posts/'
-weight = 20
-
-[Languages.fa.params]
-sitename = "چیزهایی که دوست دارم درباره‌شان صحبت کنم"
-defaultColor = "dark"
-description = ""
-mainSections = ['posts']
-toc = true
-tocOpen = false
-goToTop = true
-additionalScripts = []
-dateFormat = ""
-rssFeedDescription = "summary"
-
-[Languages.fa.params.author]
-avatar = ""
-name = "Taha Farahani"
-intro = "یه بلاگ ساده"
-description = "چیزهایی که دوست دارم درباره‌شان صحبت کنم"
