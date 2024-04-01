@@ -2,7 +2,8 @@ baseURL: "https://tahacodes.io"
 theme: awesome
 title: Taha's website
 author: Taha Farahani
-copyright: "© [Taha Farahani](https://tahacodes.io) licensed under CC BY 4.0, Source code is [here](https://github.com/tahacodes/website)"
+copyright: |
+  © [Taha Farahani](https://tahacodes.io) contents are licensed under CC BY 4.0 and the source code is [here](https://github.com/tahacodes/website).
 paginate: 3
 languageCode: en
 DefaultContentLanguage: en
@@ -17,10 +18,10 @@ params:
     palette: base16-dark
   # Sidebar about
   about:
-    title: taha's website
+    title: Taha's website
     logo_image: "favicon.ico"
     logo: ""
-    description: "A place for things i enjoy and some stuff about what i do."
+    description: "A place for my hobbies, blog posts and projects."
   # Social links
   socialLinks:
     - icon: fa-brands fa-github
