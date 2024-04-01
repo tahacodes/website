@@ -5,7 +5,7 @@
 
 body {
     font-family: var(--font-monospace);
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5rem;
 }
 
@@ -134,12 +134,6 @@ blockquote::before {
     left: -1.5rem;
     content: ">";
     color: var(--muted);
-}
-
-.twitter-tweet::before {
-    content: "\f099";
-    font-family: "Font Awesome 5 Brands";
-    font-weight: 400;
 }
 
 /* Code */
