@@ -1,8 +1,8 @@
 baseURL: "https://tahacodes.io"
 theme: awesome
-title: taha's website
+title: Taha's website
 author: Taha Farahani
-copyright: "© [Taha Farahani](https://tahacodes.io) under CC BY 4.0"
+copyright: "© [Taha Farahani](https://tahacodes.io) licensed under CC BY 4.0, Source code it [here](https://github.com/tahacodes/website)"
 paginate: 3
 languageCode: en
 DefaultContentLanguage: en
@@ -25,24 +25,27 @@ params:
   socialLinks:
     - icon: fa-brands fa-github
       title: GitHub
-      target: "_self"
+      target: "_blank"
       url: "https://github.com/tahacodes"
     - icon: fa-brands fa-x-twitter
       title: X
+      target: "_blank"
       url: "https://x.com/tahacodes"
     - icon: fa-brands fa-linkedin-in
       title: LinkedIn
+      target: "_blank"
       url: "https://linkedin.com/in/tahacodes"
     - icon: fa-solid fa-envelope
       title: Email
+      target: "_blank"
       url: "mailto:tahacodes@proton.me"
 
 # menu:
-  # main:
-  #   - identifier: about
-  #     name: About
-  #     url: /about
-  #     weight: 10
+#   main:
+#     - identifier: about
+#       name: About
+#       url: /about
+#       weight: 10
 
 taxonomies:
   category: categories
@@ -60,18 +63,13 @@ markup:
 
 privacy:
   vimeo:
-    disabled: false
-    simple: true
+    disabled: true
   twitter:
-    disabled: false
-    enableDNT: true
-    simple: true
+    disabled: true
   instagram:
-    disabled: false
-    simple: true
+    disabled: true
   youtube:
-    disabled: false
-    privacyEnhanced: true
+    disabled: true
 
 services:
   instagram:
