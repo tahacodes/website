@@ -2,7 +2,7 @@ baseURL: "https://tahacodes.io"
 theme: awesome
 title: Taha's website
 author: Taha Farahani
-copyright: "© [Taha Farahani](https://tahacodes.io) licensed under CC BY 4.0, Source code it [here](https://github.com/tahacodes/website)"
+copyright: "© [Taha Farahani](https://tahacodes.io) licensed under CC BY 4.0, Source code is [here](https://github.com/tahacodes/website)"
 paginate: 3
 languageCode: en
 DefaultContentLanguage: en
