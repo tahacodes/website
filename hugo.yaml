@@ -10,6 +10,8 @@ DefaultContentLanguage: en
 enableInlineShortcodes: true
 sectionPagesMenu: main
 enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
 ignoreErrors:
   - error-remote-getjson
 

@@ -9,4 +9,4 @@ tags = [
 +++
 
 <hr>
-A simple post
+A simple post 
