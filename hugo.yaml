@@ -9,6 +9,7 @@ languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: true
 sectionPagesMenu: main
+enableRobotsTXT: true
 ignoreErrors:
   - error-remote-getjson
 
