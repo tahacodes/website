@@ -49,10 +49,7 @@ params:
 #       url: /about
 #       weight: 10
 
-taxonomies:
-  category: categories
-  tag: tags
-  series: series
+disableKinds: ["taxonomy", "term"]
 
 markup:
   goldmark:
