@@ -29,19 +29,15 @@ params:
   socialLinks:
     - icon: fa-brands fa-github
       title: GitHub
-      target: "_blank"
       url: "https://github.com/tahacodes"
     - icon: fa-brands fa-x-twitter
       title: X
-      target: "_blank"
       url: "https://x.com/tahacodes"
     - icon: fa-brands fa-linkedin-in
       title: LinkedIn
-      target: "_blank"
       url: "https://linkedin.com/in/tahacodes"
     - icon: fa-solid fa-envelope
       title: Email
-      target: "_blank"
       url: "mailto:tahacodes@proton.me"
 
 # menu:
