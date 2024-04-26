@@ -1,10 +1,6 @@
-all: clean dev
-
 dev:
+	rm -rf public/
 	hugo server --noBuildLock --disableFastRender
 
 build:
 	hugo --noBuildLock
-
-clean:
-	rm -rf public/
