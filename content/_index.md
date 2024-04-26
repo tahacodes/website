@@ -9,7 +9,6 @@ tags = ["index"]
 
 <hr>
 Hi 👋 Welcome to me website. Please checkout my blog posts <a href="/blog" target="_blank">here</a>
-I'm currently in the process of translating my old persian articles to english so it's not much at the moment. :)
 
 # Let's connect
 
