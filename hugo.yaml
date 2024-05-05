@@ -40,12 +40,12 @@ params:
       title: Email
       url: "mailto:tahacodes@proton.me"
 
-# menu:
-#   main:
-#     - identifier: about
-#       name: About
-#       url: /about
-#       weight: 10
+menu:
+  main:
+    - identifier: about me
+      name: about me
+      url: /about
+      weight: 10
 
 disableKinds: ["taxonomy", "term"]
 
